@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Trebuchet MS;
+}
+body{
+	background: #f7f7f7;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.clearfix::after{
+	clear: both;
+	content:'';
+	display: table;
+}
+#header-container{
+	background-color: #e4e4e4;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+#logo{
+	float: left;
+}
+#navigation{
+	float: right;
+	margin-top: 8px;
+}
+#navigation ul li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+#navigation ul li a{
+	color: #4e4e4e;
+	text-decoration: none;
+	font-weight: 600;
+}
+#navigation ul li a:hover{
+	color: #b1dad2;
+}
+#benner img{
+	width: 100%;
+}
+.services-item{
+	float: left;
+	width: 23%;
+	text-align: center;
+	margin-right: 25px;
+}
+.services-item h3{
+	color: #4e4e4e;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.services-item p{
+	color: #8f8f8f;
+}
+#services-container{
+	padding: 40px 0px;
+	border-bottom: 2px solid #dcdcdc;
+}
+#project-container{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#project-sub-container{
+	margin: 20px 0px;
+}
+.project-item{
+	float: left;
+	width: 32%;
+    margin-right: 17px;
+}
+.project-item img{
+	width: 100%;
+}
+.project-item h2{
+	color: #4e4e4e;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.project-item h5{
+	color: #b2b2b2;
+	margin-bottom: 15px;
+}
+.project-item p{
+	color: #5c5c5c;
+}
+#testimonial-container{
+	padding: 90px 0px;
+	background-color: #efefef;
+    text-align: center;
+}
+#testimonial-sub-container p{
+	color: #a1a1a1;
+	margin-top: 10px;
+	font-size: 18px;
+}
